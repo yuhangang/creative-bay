@@ -76,6 +76,7 @@ export class App extends THREE.EventDispatcher {
     this._orbitControls.keyPanSpeed = 0.5;
 
     this._gui.title('Scene settings');
+    this._gui.hide();
     this._experienceScene = new ExperienceScene({
       camera: this._camera,
       mouseMove: this._mouseMove,

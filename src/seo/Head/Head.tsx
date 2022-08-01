@@ -18,12 +18,9 @@ export const Head = (props: HeadProps) => {
 
   return (
     <NextHead>
-      <title>{`WebGL Learning - ${title}`}</title>
+      <title>{`YUHANGANG`}</title>
       <meta name="description" content={description} />
-      <link
-        rel="icon"
-        href="https://res.cloudinary.com/dpv0ukspz/image/upload/v1650137433/icon_wghyio.ico"
-      />
+      <link rel="icon" href="/favicon.ico" />
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link
