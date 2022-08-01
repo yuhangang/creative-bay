@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react';
 import { useRouter } from 'next/router';
-
 import { globalState } from 'utils/globalState';
-import { CopyInfo } from 'sections/CopyInfo/CopyInfo';
-import { AuthorInfo } from 'sections/AuthorInfo/AuthorInfo';
-
 import * as S from './Layout.styles';
 
 interface Props {
@@ -48,7 +44,6 @@ export const Layout = (props: Props) => {
         </S.BackWrapper>
       )}
 
-      
       {children}
     </>
   );
