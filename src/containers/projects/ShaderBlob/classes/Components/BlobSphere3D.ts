@@ -21,13 +21,13 @@ export class BlobSphere3D extends InteractiveObject3D {
   _fresnelSettings = {
     mRefractionRatio: 1.02,
     mFresnelBias: 0.1,
-    mFresnelScale: 4.0, //2.0 - default
-    mFresnelPower: 2.0, //1.0 - default
+    mFresnelScale: 1.0, //2.0 - default
+    mFresnelPower: 21.0, //1.0 - default
   };
   _scaleTween: Tween<{ progress: number }> | null = null;
   _colorFactorTween: Tween<{ progress: number }> | null = null;
   _isBlobAnimated = false;
-  _blobScale = 1.4;
+  _blobScale = 0.5;
   _colorFactor = 1;
   _rendererBounds: Bounds = { height: 100, width: 100 };
   _isInit = false;

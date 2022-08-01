@@ -4,7 +4,7 @@
   },
   "editor.formatOnSave": true,
   "eslint.alwaysShowStatus": true,
-  "editor.fontSize": 20,
+  "editor.fontSize": 13,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
@@ -12,7 +12,10 @@
   "editor.tabSize": 2,
   "workbench.editor.labelFormat": "short",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
 // Installed extensions : "eslint, prettier ,bracketPairColorizer, GitLens, vscode-styled-components, indent-rainbow, path intellisense"
 // Installed git bash

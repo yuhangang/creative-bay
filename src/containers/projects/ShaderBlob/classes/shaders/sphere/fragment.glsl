@@ -11,7 +11,7 @@ varying vec3 vPosition;
 
 
 float lines(vec2 uv, float offset){
-    float a = abs(0.5 * sin(uv.x * 10.0) + offset * 0.5);
+    float a = abs(0.6 *sin(uv.x * 50.0) * cos(uv.x * 10.0)+ offset * 0.0);
     return smoothstep(0.0, 0.5 + offset * 0.5, a);
 }
 
@@ -33,5 +33,5 @@ void main()
 
     vec3 baseColor = mix(uColor1, uColor2, basePattern);
     vec3 secondBaseColor = mix(baseColor, uColorAccent, secondPattern);
-    gl_FragColor = vec4(secondBaseColor, 1.0);
+    gl_FragColor = vec4(secondBaseColor, 0.58);
 }

@@ -70,6 +70,10 @@ export class App extends THREE.EventDispatcher {
     this._orbitControls.enableDamping = true;
     this._orbitControls.enableZoom = false;
     this._orbitControls.enablePan = false;
+    this._orbitControls.autoRotate = true;
+    this._orbitControls.autoRotateSpeed = 0.5;
+    this._orbitControls.panSpeed = 0.5;
+    this._orbitControls.keyPanSpeed = 0.5;
 
     this._gui.title('Scene settings');
     this._experienceScene = new ExperienceScene({

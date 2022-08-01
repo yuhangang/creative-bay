@@ -59,6 +59,8 @@ export class App extends THREE.EventDispatcher {
     this._orbitControls.enablePan = false;
     this._orbitControls.enableRotate = false;
     this._orbitControls.enableZoom = false;
+    this._orbitControls.autoRotate = false;
+    this._orbitControls.autoRotateSpeed = 1;
     this._orbitControls.update();
 
     this._gui.title('Scene settings');

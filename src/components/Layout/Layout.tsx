@@ -48,14 +48,17 @@ export const Layout = (props: Props) => {
         </S.BackWrapper>
       )}
 
-      <AuthorInfo />
+      
+      {children}
+    </>
+  );
+};
+/*
+<AuthorInfo />
 
       <CopyInfo
         repoHref={repoHref}
         inspirationHref={inspirationHref}
         inspirationName={inspirationName}
       />
-      {children}
-    </>
-  );
-};
+*/

@@ -38,7 +38,7 @@ export class ExperienceScene extends InteractiveScene {
       geometry: this._planeGeometry,
       gui,
       fragmentShader: fragmentTextEn,
-      text: ['Any variations', 'that fit your', 'imagination'],
+      text: ['ESCAPE', 'EXTRAORDINARY', 'imagination'],
       offsetsArray: [-0.18, 0.28, -0.08, 0, 0, 0],
     });
     this.add(this._textPlaneEn);

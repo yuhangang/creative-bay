@@ -17,11 +17,14 @@ export class Background3D extends InteractiveObject3D {
   _material: THREE.ShaderMaterial | null = null;
   _gui: GUI;
   _background = {
-    color1: [0 / 255, 184 / 255, 129 / 255], // [255 / 255, 139 / 255, 31 / 255]
-    color2: [0 / 255, 184 / 255, 194 / 255], // [0 / 255, 200 / 255, 255 / 255]
-    colorAccent: [0 / 255, 0 / 255, 0 / 255],
+    color1:[72 / 255,168 / 255,136 / 255],
+    color2: [182 / 255, 188 / 255, 157 / 255],
+    colorAccent: [237 / 255, 237 / 255, 237 / 255],
+    //color1: [0 / 255, 184 / 255, 129 / 255], // [255 / 255, 139 / 255, 31 / 255]
+    //color2: [0 / 255, 184 / 255, 194 / 255], // [0 / 255, 200 / 255, 255 / 255]
+    //colorAccent: [0 / 255, 0 / 255, 0 / 255],
     uLinesBlur: 0.25,
-    uNoise: 0.075,
+    uNoise: 0,
     uOffsetX: 0.34,
     uOffsetY: 0.0,
     uLinesAmount: 5.0,

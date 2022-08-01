@@ -17,28 +17,5 @@ export const CopyInfo = (props: Props) => {
     inspirationName,
   } = props;
 
-  return (
-    <>
-      <S.GithubWrapper>
-        <LinkHandler isExternal elHref={repoHref}>
-          <S.GithubLink>GitHub repo</S.GithubLink>
-        </LinkHandler>
-      </S.GithubWrapper>
-      <S.AuthorWrapper>
-        <LinkHandler isExternal elHref="https://creativeprojects.vercel.app/">
-          <S.AuthorLink>Michal Zalobny</S.AuthorLink>
-        </LinkHandler>
-        portfolio 2022 - WebGL &#38; GLSL
-      </S.AuthorWrapper>
-
-      {inspirationName && (
-        <S.InspirationWrapper>
-          Inspired by
-          <LinkHandler isExternal elHref={inspirationHref}>
-            <S.InspirationLink>{inspirationName}</S.InspirationLink>
-          </LinkHandler>
-        </S.InspirationWrapper>
-      )}
-    </>
-  );
+  return <></>;
 };
